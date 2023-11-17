@@ -41,7 +41,6 @@ fun HomeScreen(navController: NavController) {
     }
 }
 
-@OptIn(ExperimentalPermissionsApi::class)
 @Composable
 private fun NoPermissionContent(
     onRequestPermission: () -> Unit,
